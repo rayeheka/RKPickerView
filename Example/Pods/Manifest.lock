@@ -1,0 +1,16 @@
+PODS:
+  - RKPickerView (0.1.0)
+
+DEPENDENCIES:
+  - RKPickerView (from `../`)
+
+EXTERNAL SOURCES:
+  RKPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKPickerView: d3ab6d9b4e8a3ec11d840ec272230ce0d3004538
+
+PODFILE CHECKSUM: 1be477793750755c51743dbcd289e5b824b519c1
+
+COCOAPODS: 1.5.3

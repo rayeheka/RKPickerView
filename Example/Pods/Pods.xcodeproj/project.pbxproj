@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0010FBD892C259C7E1DF6E4238EDE6F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		0165FC50883FB332C881A3DBB4C8FB9C /* Pods-RKPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D9DACAEB8A67DD76F22F1496C2C301 /* Pods-RKPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B00C674216CE4FC00F7F04A /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0B00C672216CE4FC00F7F04A /* Assets */; };
+		0B00C675216CE4FC00F7F04A /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0B00C673216CE4FC00F7F04A /* Classes */; };
 		11B0E699C9A92549B3977DC88FAA208E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3A89CF9AFDB24DDB9D7EF7842B3E140F /* Pods-RKPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDA853E59DC1D575B659A1E0813F3D /* Pods-RKPickerView_Tests-dummy.m */; };
 		6AEBB694BCF7593459EE36535F30A721 /* Pods-RKPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E08C20DFA6A9F3DE61C5A14729FBE55 /* Pods-RKPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D72F9A0C86661DCD9EDFAB5F947745D /* RKPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C17B9C498501A44AD141136B293CF1 /* RKPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81B9F8F054AC34170C58F1E451D6C190 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA72A845BC0E75FA114CB62673510D1 /* ReplaceMe.swift */; };
 		9CF5D3883B98BA7BC9BC5685430CCB66 /* RKPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 846CDF91EF5746FCB2F320FE086698C7 /* RKPickerView-dummy.m */; };
 		DD31958E4357A7BB879464AAD6E9556C /* Pods-RKPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2644E84F93C4A47DC719A74277E7B /* Pods-RKPickerView_Example-dummy.m */; };
 		F54D568B6400075F4345018627DC67D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0098F3B3F1E1E1710B1C277C6BCE1BFE /* RKPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RKPickerView.modulemap; sourceTree = "<group>"; };
+		0B00C672216CE4FC00F7F04A /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = RKPickerView/Assets; sourceTree = "<group>"; };
+		0B00C673216CE4FC00F7F04A /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = RKPickerView/Classes; sourceTree = "<group>"; };
 		113B8D62B38774CAF970EC8A0DF5DC2F /* RKPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKPickerView-prefix.pch"; sourceTree = "<group>"; };
 		1AC12ED782C930F249A10686E6064ABB /* RKPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKPickerView.xcconfig; sourceTree = "<group>"; };
 		1E08C20DFA6A9F3DE61C5A14729FBE55 /* Pods-RKPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -50,28 +53,27 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EE2644E84F93C4A47DC719A74277E7B /* Pods-RKPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKPickerView_Example-dummy.m"; sourceTree = "<group>"; };
 		67AF84C56BF565183E93C9DA5D68FE69 /* Pods-RKPickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKPickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6954D954A5CE58CE04B207B8B65DB2AC /* RKPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RKPickerView.framework; path = RKPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6954D954A5CE58CE04B207B8B65DB2AC /* RKPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C301044A103E8880BFF4B37BAF95EC /* Pods-RKPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		846CDF91EF5746FCB2F320FE086698C7 /* RKPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKPickerView-dummy.m"; sourceTree = "<group>"; };
 		85566B980DE5B875FC08D8F954BFFFCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89BE32307B4CE1D9F1FF015E8FE1073A /* Pods-RKPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		90134D0E324F9F83A42572C847B7B5FB /* Pods-RKPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKPickerView_Example.modulemap"; sourceTree = "<group>"; };
 		90766EEC8DDF931146420EE646CC3A07 /* Pods-RKPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6F95EE6C33895C60D7601EFF51627B8 /* Pods-RKPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B233D4460762072D1BD66671953ACE1B /* Pods-RKPickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKPickerView_Tests-resources.sh"; sourceTree = "<group>"; };
-		B633ACF678CA023B28811D8435E38B2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C29DC969F2DB90872A96EF91DF8DC416 /* RKPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RKPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B633ACF678CA023B28811D8435E38B2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C29DC969F2DB90872A96EF91DF8DC416 /* RKPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RKPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7E32444A897ACE378784C9447DE2864 /* Pods-RKPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7DDA853E59DC1D575B659A1E0813F3D /* Pods-RKPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
 		E6780EBC4B68D30BC9FDF814947947BE /* Pods-RKPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E681FDEE02233F37C4BA9B2B6CA80FBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAA72A845BC0E75FA114CB62673510D1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RKPickerView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		ECAFEEF0F2A36849EF0580504029B923 /* Pods_RKPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RKPickerView_Tests.framework; path = "Pods-RKPickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAFEEF0F2A36849EF0580504029B923 /* Pods_RKPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D9DACAEB8A67DD76F22F1496C2C301 /* Pods-RKPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F6A99D01110E4626618BDDD53289C650 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F6A99D01110E4626618BDDD53289C650 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7478631E8690848269F6213BF6A1B41 /* Pods-RKPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FB9B844BE7E3A94EFA3A49473E4B5E39 /* Pods_RKPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RKPickerView_Example.framework; path = "Pods-RKPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9B844BE7E3A94EFA3A49473E4B5E39 /* Pods_RKPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +184,8 @@
 		9E5E3FB84A8CB079D2218491FE91F165 /* RKPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				EAA72A845BC0E75FA114CB62673510D1 /* ReplaceMe.swift */,
+				0B00C672216CE4FC00F7F04A /* Assets */,
+				0B00C673216CE4FC00F7F04A /* Classes */,
 				EA1A64130F6C0ED083DBEF50FE592482 /* Pod */,
 				5232B977F9403113964F6576B7F36E9A /* Support Files */,
 			);
@@ -360,6 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B00C674216CE4FC00F7F04A /* Assets in Resources */,
+				0B00C675216CE4FC00F7F04A /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +383,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B9F8F054AC34170C58F1E451D6C190 /* ReplaceMe.swift in Sources */,
 				9CF5D3883B98BA7BC9BC5685430CCB66 /* RKPickerView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,8 +469,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -502,8 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

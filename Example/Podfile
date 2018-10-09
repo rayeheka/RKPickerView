@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RKPickerView_Example' do
+  pod 'RKPickerView', :path => '../'
+
+  target 'RKPickerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
